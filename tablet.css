@@ -1,0 +1,10 @@
+.main--first-section .tables {
+    padding: 0;
+    justify-content: center;
+    overflow-x: none;
+    overscroll-behavior-x: none;
+    scroll-snap-type: none;
+}
+.table-section {
+    scroll-snap-align: none;
+}

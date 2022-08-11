@@ -1,0 +1,34 @@
+html {
+    font-size: 70%;
+}
+.main--fourth-section .planes {
+    justify-content: center;
+    overflow-x: none;
+    overscroll-behavior-x: none;
+    scroll-snap-type: none;
+    padding: 0;
+}
+.main--fourth-section .planes .plan1, .plan2, .plan3 {
+    scroll-snap-align: none;
+}
+.main--second-section {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    padding-bottom: 8vh;
+}
+.tarjetas {
+    width: 40%;
+    height: 20rem;
+    max-height: 22rem;
+    margin: 2vw;
+}
+.tarjeta1 h3, .tarjeta2 h3, .tarjeta3 h3, .tarjeta4 h3 {
+    font-size: 2rem;
+    line-height: 2rem;
+}
+.tarjeta1 p, .tarjeta2 p, .tarjeta3 p, .tarjeta4 p {
+    font-size: 1.6rem;
+    line-height: 2rem;
+}
